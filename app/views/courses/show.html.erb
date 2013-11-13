@@ -1,0 +1,5 @@
+<h1>Course Details</h1>
+
+<p><%= @course.department %><%= @course.number %>: <%= @course.title %></p>
+	
+<p><%= link_to("Delete this course", course_url(@course), :method => "delete") %></p>
